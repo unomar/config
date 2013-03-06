@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kweiss01/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0'
+let g:netrw_dirhist_2='/home/kweiss01/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st'
+let g:netrw_dirhist_3='/home/kweiss01/.gradle/wrapper/dists/gradle-1.0-bin'
+let g:netrw_dirhist_4='/home/kweiss01/.gradle/wrapper/dists'
+let g:netrw_dirhist_5='/home/kweiss01/.gradle/wrapper'
+let g:netrw_dirhist_6='/home/kweiss01/.gradle'

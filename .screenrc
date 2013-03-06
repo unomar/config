@@ -1,0 +1,16 @@
+bindkey "^[[1;5D" prev  # change window with ctrl-left
+bindkey "^[[1;5C" next  # change window with ctrl-right
+bindkey -k k3 title
+#caption always "%?%{ Wk}%-Lw%?%{Rk}%n*%f %t%?(%u)%?%?%{Wk}%+Lw%? %{Rk}%=%c %{rk}%d/%M/%Y"
+#hardstatus "%{+b kr}[ %H ] %{kw} Load: %l %-=%  %{kb} %c:%s  %d.%m.%Y " 
+hardstatus off
+hardstatus alwayslastline
+#hardstatus string "%{+b wk} %-w%{+b wk} %n %t %{-}%+w %41=%H @ %l %-= %= %D,%c:%s "
+hardstatus string "%{+b wk} %-w%{+b k} %n %t %{-}%+w %41=%H @ %l %-= %= %D,%c:%s "
+altscreen on
+#term screen-256color
+terminfo rxvt-unicode 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+termcapinfo xterm-unicode ti@:te@
+termcapinfo xterm ti@:te@
+termcapinfo xterm 'hs:ts=\E]2;:fs=07:ds=\E]2;screen07'

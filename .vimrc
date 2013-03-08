@@ -14,6 +14,7 @@ set tabstop=4   " set tab width
 " autocmd vimenter * if !argc() | NERDTree | endif
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
+let g:Powerline_symbols = 'fancy'
 
 " Custom key bindings
 nmap \l :setlocal number!<CR>

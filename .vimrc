@@ -30,7 +30,7 @@ endif
    
 
 " colorscheme adjustments :hi lists the symbols and values for this
-colorscheme darkzen    " change the colorscheme
+colorscheme darkzen-custom    " change the colorscheme
 " make the preprocessor stuff a lighter color
 "hi PreProc ctermfg=yellow
 "hi Constant cterm=underline,bold ctermfg=9

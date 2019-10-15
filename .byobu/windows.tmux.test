@@ -1,0 +1,9 @@
+new-session 'bash' ;
+new-window -n term1 ;
+new-window -n term2 ;
+new-window -n nas ssh nas ;
+split-window ;
+split-window ;
+split-window ;
+select-layout tiled ;
+select-pane -t 0

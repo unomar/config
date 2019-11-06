@@ -11,6 +11,8 @@ set wm=8        " set wrapmargin
 set nohls       " turn off highlight on search
 set et          " turn on expand tab
 set tabstop=4   " set tab width
+set shiftwidth=4 " set indent width
+set smarttab     " enable smart tabs
 set relativenumber " Set relative numbers
 set number      " Set exact line number
 " autocmd vimenter * if !argc() | NERDTree | endif

@@ -117,6 +117,8 @@ if ! shopt -oq posix; then
     . /usr/share/bash-completion/bash_completion
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
+  elif [ -f ~/.bash_completion ]; then
+    source ~/.bash_completion
   fi
 fi
 
@@ -124,4 +126,10 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-source ~/git/pureline/pureline ~/.pureline.conf
+if [ -f ~/git/pureline/pureline ]; then
+    source ~/git/pureline/pureline ~/.pureline.conf
+fi
+
+if [ -f ~/.bash-jet ]; then       
+    source ~/.bash-jet
+fi

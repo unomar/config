@@ -11,6 +11,6 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
 
-if [ -z "$TMUX" ]; then
-        tmux attach -t default || tmux new -s default
-fi
+#if [ -z "$TMUX" ]; then
+#        tmux attach -t default || tmux new -s default
+#fi

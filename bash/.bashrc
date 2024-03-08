@@ -12,6 +12,9 @@ esac
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
+# Set the default editor
+EDITOR=vim
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
